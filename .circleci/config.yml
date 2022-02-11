@@ -38,6 +38,7 @@ jobs:
     - setup_remote_docker
     - run:
         command: |
+          env
           make tools
           go mod vendor
           ORG=roboll BUILD_URL="$CIRCLE_BUILD_URL" make image
