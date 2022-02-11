@@ -1,4 +1,4 @@
-ORG     ?= boban_petrovic
+ORG     := boban_petrovic
 PKGS    := $(shell go list ./... | grep -v /vendor/)
 
 build:
