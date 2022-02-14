@@ -1,6 +1,6 @@
 module github.com/roboll/helmfile
 
-go 1.14
+go 1.17
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
